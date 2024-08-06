@@ -74,6 +74,48 @@ a {
   font-weight: 500;
 }
 
+.support-wrapper {
+  height: 100vh;
+}
+
+.support-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.support-form {
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  font-size: 14px !important;
+}
+
+.ikontrol-btn-primary {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  background-color: #5b00ff;
+  color: #fff;
+  border-radius: 5px;
+  elevation: 5;
+  font-weight: 500;
+  min-width: 100px;
+}
+
 @media only screen and (max-width: 900px) {
   .main {
     padding: 60px 20px;
