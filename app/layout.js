@@ -1,20 +1,28 @@
 import { Inter } from "next/font/google";
-import "@/styles/globals.css";
+import "./globals.css";
+
+// bootstrap
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "@/components/Header";
+
+// components
+import Header from "@/components/header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ikontrol 360",
+  title: "IKontrol360",
   description:
-    "At iKontrol360, we are transforming how individuals engage with their surroundings. Imagine the ability to connect, control, and monitor every facet of your daily life through a single, intuitive platform.",
+    "Yamal Insurance is a distinguished insurance provider committed to delivering exceptional insurance solutions tailored to meet the diverse needs of our clients. ",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

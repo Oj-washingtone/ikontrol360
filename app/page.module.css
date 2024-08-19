@@ -1,9 +1,0 @@
-.main {
-  min-height: 100vh;
-  background-color: var(--bg-color);
-  color: white;
-}
-
-.main-content-wrapper {
-  background: red !important;
-}
