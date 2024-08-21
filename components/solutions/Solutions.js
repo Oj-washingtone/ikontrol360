@@ -6,15 +6,7 @@ export default function Solutions() {
     <div className="solutions-wrapper section">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 service-image">
-            <div className="image-desctop">
-              Image here
-              {/* <img
-                src="/images/Cloud_Connection-removebg-preview.png"
-                alt="solutions"
-              /> */}
-            </div>
-          </div>
+          <div className="col-md-6 service-image">Image here</div>
           <div className="col-md-6 service-desc">
             <h1 className="sub-title">The future of connected living</h1>
             <h1 className="title">Join the IoT Revolution with iKontrol360</h1>

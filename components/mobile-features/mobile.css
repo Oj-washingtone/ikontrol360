@@ -1,0 +1,8 @@
+.composite-mobile-features {
+  width: 100%;
+}
+
+.composite-mobile-features img {
+  width: 100%;
+  object-fit: fill;
+}

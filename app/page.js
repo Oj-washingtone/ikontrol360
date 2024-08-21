@@ -8,6 +8,8 @@ import CallToAction from "@/components/call-to-action/CallToAction";
 import Statistics from "@/components/statistics/Statistics";
 import Footer from "@/components/footer/Footer";
 import ProductFeatures from "@/components/features/Features";
+import Mobile from "@/components/mobile-features/Mobile";
+
 export default function Home() {
   return (
     <main>
@@ -16,6 +18,7 @@ export default function Home() {
       <ProductFeatures />
       <About />
       <VideoComponent />
+      <Mobile />
       <PopularProducts />
       {/* <CallToAction /> */}
       {/* <Statistics /> */}
