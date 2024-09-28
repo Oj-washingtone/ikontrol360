@@ -11,9 +11,9 @@ import Header from "@/components/header/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "IKontrol360",
+  title: "TipApp",
   description:
-    "Yamal Insurance is a distinguished insurance provider committed to delivering exceptional insurance solutions tailored to meet the diverse needs of our clients. ",
+    "TipApp is a revolutionary platform designed to streamline tipping and enhance the experience for both service providers and customers. This innovative app . ",
 };
 
 export default function RootLayout({ children }) {

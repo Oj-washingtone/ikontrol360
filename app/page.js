@@ -9,19 +9,21 @@ import Statistics from "@/components/statistics/Statistics";
 import Footer from "@/components/footer/Footer";
 import ProductFeatures from "@/components/features/Features";
 import Mobile from "@/components/mobile-features/Mobile";
+import Suggestions from "@/components/suggestions/Suggestions";
 
 export default function Home() {
   return (
     <main>
       <Banner />
+      {/* <Suggestions /> */}
+      {/* <About /> */}
       <Solutions />
       <ProductFeatures />
-      <About />
       <VideoComponent />
       <Mobile />
       <PopularProducts />
-      {/* <CallToAction /> */}
-      {/* <Statistics /> */}
+      {/* <CallToAction />
+      <Statistics /> */}
       <Footer />
     </main>
   );

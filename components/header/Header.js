@@ -14,7 +14,7 @@ export default function Header() {
       <div className="container">
         <div className="nav-main">
           <div className="logo">
-            iKontrol360
+            tipApp
             {/* <img src="/images/logo.svg" alt="logo" /> */}
           </div>
 
@@ -26,15 +26,13 @@ export default function Header() {
               <li>
                 <a href="#">About</a>
               </li>
+
               <li>
-                <a href="#">Pricing</a>
-              </li>
-              <li>
-                <a href="#">Demo</a>
+                <a href="#">Privacy policy</a>
               </li>
 
               <li>
-                <a href="#">Blog</a>
+                <a href="#">Terms & Conditions</a>
               </li>
 
               <li>
